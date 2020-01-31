@@ -141,9 +141,16 @@ window.onscroll = function() {
 
 function myFunction() {
   var navbar = document.getElementById("myNavbar");
-  if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+  if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
     navbar.className = "w3-navbar" + " w3-card-2" + " w3-animate-top" + " w3-white";
   } else {
     navbar.className = navbar.className.replace(" w3-card-2 w3-animate-top w3-white", "");
   }
 }
+
+$(function() {
+  $('a[href*=#]').on('click', function(e) {
+    e.preventDefault();
+    $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 500, 'linear');
+  });
+});
