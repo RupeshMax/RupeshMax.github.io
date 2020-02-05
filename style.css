@@ -22,19 +22,19 @@ body, html {
 
 /* First image (Logo. Full height) */
 .bgimg-1 {
-    background-image: url('sample.png');
+    background-image: url('sample.jpg');
     min-height: 100%;
 }
 
 /* Second image (Portfolio) */
 .bgimg-2 {
-    background-image: url("DSC_0759-01.jpeg");
+    background-image: url("sample1.jpg");
     min-height: 400px;
 }
 
 /* Third image (Contact) */
 .bgimg-3 {
-    background-image: url("http://unsplash.com/photos/TV2gg2kZD1o/download");
+    background-image: url("sample2.jpg");
     min-height: 400px;
 }
 
