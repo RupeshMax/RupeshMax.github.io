@@ -65,50 +65,45 @@
 </div>
 
 <!-- Container (Portfolio Section) -->
-<div class="w3-content w3-container w3-padding-64">
+<div>
   <h2 class="w3-center">MY WORK</h2>
   <p class="w3-center"><em>Here are some of my latest work.<br> Click on the images to make them bigger</em></p><br>
 
   <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
-  <div class="w3-row-padding w3-center">
-    <div class="w3-col m3">
-      <img src="project2.png" style="width:100%;height: 170px" onclick="onClick(this)" class="w3-hover-opacity">
-    </div>
+  
+  <div class="box">
+      <div class="card">
+        <div class="imgBx">
+            <img src="E:\git\RupeshMax.github.io\project2.png" alt="images">
+        </div>
+        <div class="details">
+            <h2><a href="http://brainsys.in/">brainsys.in</a><br><span>CSS</span></h2>
+        </div>
+      </div>
+    
+       <div class="card">
+        <div class="imgBx">
+            <img src="E:\git\RupeshMax.github.io\project.png" alt="images">
+        </div>
+        <div class="details">
+            <h2><a href="https://rupeshmax.github.io/layeredTextShadow/">Layered Text Shadow</a><br><span>CSS</span></h2>
+        </div>
+      </div>
 
-    <div class="w3-col m3">
-      <img src="project.png" style="width:100%;height: 175px" onclick="onClick(this)" class="w3-hover-opacity">
-    </div>
+       <div class="card">
+        <div class="imgBx">
+            <img src="E:\git\RupeshMax.github.io\project3.png" alt="images">
+        </div>
+        <div class="details">
+            <h2><a href="https://dreamprojectmailtemplate.000webhostapp.com/">Mail Template</a><br><span>CSS</span></h2>
+        </div>
+      </div>
 
-    <div class="w3-col m3">
-      <img src="https://unsplash.it/400/302?random" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
-    </div>
-
-    <div class="w3-col m3">
-      <img src="https://unsplash.it/400/303?random" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
-    </div>
+ 
   </div>
+  
 
-  <p class="w3-center"><em>I love Photography</em></p>
-
-  <div class="w3-row-padding w3-center w3-section">
-    <div class="w3-col m3">
-      <img src="https://unsplash.it/400/304?random" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
-    </div>
-
-    <div class="w3-col m3">
-      <img src="https://unsplash.it/400/305?random" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
-    </div>
-
-    <div class="w3-col m3">
-      <img src="https://unsplash.it/400/306?random" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
-    </div>
-
-    <div class="w3-col m3">
-      <img src="https://unsplash.it/400/307?random" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
-    </div>
-  </div>
 </div>
-
 <!-- Modal for full size images on click-->
 <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
   <span class="w3-closebtn w3-hover-red w3-text-white w3-xxxlarge w3-container w3-display-topright">×</span>
@@ -119,7 +114,7 @@
 </div>
 
 
-
+<br><br>
 <!-- Second Parallax Image with Portfolio Text -->
 <div class="bgimg-2 w3-display-container" id="portfolio">
   <div class="w3-display-middle">
