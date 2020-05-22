@@ -230,8 +230,8 @@ section h1 {
 }
 @media only screen and (max-width: 600px){
 #section06 a span{
-    border-left: 3px solid #fff;
-  border-bottom: 3px solid #fff;
+    border-left: 2px solid #fff;
+  border-bottom: 2px solid #fff;
     }
 }
 @-webkit-keyframes sdb06 {
